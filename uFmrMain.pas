@@ -23,11 +23,17 @@ type
     While1: TMenuItem;
     Repeat1: TMenuItem;
     About1: TMenuItem;
+    Exercicio11: TMenuItem;
+    Exerccio22: TMenuItem;
+    Exerccio32: TMenuItem;
     procedure Exit1Click(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure Exerccio11Click(Sender: TObject);
     procedure Exerccio21Click(Sender: TObject);
     procedure Exerccio31Click(Sender: TObject);
+    procedure Exercicio11Click(Sender: TObject);
+    procedure Exerccio22Click(Sender: TObject);
+    procedure Exerccio32Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -41,7 +47,7 @@ implementation
 
 {$R *.dfm}
 
-uses uFmrOpMat01, uFmrOpMat02, uFmrOpMat03;
+uses uFmrOpMat01, uFmrOpMat02, uFmrOpMat03, uFmrIF1, uFmrIF2, uFmrIF3;
 
 procedure TfmrMain.Exerccio11Click(Sender: TObject);
 begin
@@ -53,9 +59,24 @@ begin
   fmrMat02.ShowModal;
 end;
 
+procedure TfmrMain.Exerccio22Click(Sender: TObject);
+begin
+  fmrIF2.ShowModal;
+end;
+
 procedure TfmrMain.Exerccio31Click(Sender: TObject);
 begin
  fmrOpMat03.ShowModal;
+end;
+
+procedure TfmrMain.Exerccio32Click(Sender: TObject);
+begin
+  fmrIF3.ShowModal;
+end;
+
+procedure TfmrMain.Exercicio11Click(Sender: TObject);
+begin
+ fmrIF01.ShowModal;
 end;
 
 procedure TfmrMain.Exit1Click(Sender: TObject);

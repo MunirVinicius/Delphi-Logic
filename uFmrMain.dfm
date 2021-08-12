@@ -45,6 +45,18 @@ object fmrMain: TfmrMain
       Caption = '&Conditional'
       object If1: TMenuItem
         Caption = 'If'
+        object Exercicio11: TMenuItem
+          Caption = 'Exerc'#237'cio 1'
+          OnClick = Exercicio11Click
+        end
+        object Exerccio22: TMenuItem
+          Caption = 'Exerc'#237'cio 2'
+          OnClick = Exerccio22Click
+        end
+        object Exerccio32: TMenuItem
+          Caption = 'Exerc'#237'cio 3'
+          OnClick = Exerccio32Click
+        end
       end
       object Switch1: TMenuItem
         Caption = 'Switch'
