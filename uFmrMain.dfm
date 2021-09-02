@@ -60,18 +60,66 @@ object fmrMain: TfmrMain
       end
       object Switch1: TMenuItem
         Caption = 'Switch'
+        object Exercicio12: TMenuItem
+          Caption = 'Exercicio 1'
+          OnClick = Exercicio12Click
+        end
+        object Exercicio21: TMenuItem
+          Caption = 'Exercicio 2'
+          OnClick = Exercicio21Click
+        end
+        object Exercicio31: TMenuItem
+          Caption = 'Exercicio 3'
+          OnClick = Exercicio31Click
+        end
       end
     end
     object Loop1: TMenuItem
       Caption = 'Loop'
       object For1: TMenuItem
         Caption = 'For'
+        object Exercicio13: TMenuItem
+          Caption = 'Exercicio 1'
+          OnClick = Exercicio13Click
+        end
+        object Exercicio22: TMenuItem
+          Caption = 'Exercicio 2'
+          OnClick = Exercicio22Click
+        end
+        object Exercicio32: TMenuItem
+          Caption = 'Exercicio 3'
+          OnClick = Exercicio32Click
+        end
       end
       object While1: TMenuItem
         Caption = 'While'
+        object Exercicio14: TMenuItem
+          Caption = 'Exercicio 1'
+          OnClick = Exercicio14Click
+        end
+        object Exercicio23: TMenuItem
+          Caption = 'Exercicio 2'
+          OnClick = Exercicio23Click
+        end
+        object Exercicio33: TMenuItem
+          Caption = 'Exercicio 3'
+          OnClick = Exercicio33Click
+        end
       end
       object Repeat1: TMenuItem
         Caption = 'Repeat'
+        object Exercicio15: TMenuItem
+          Caption = 'Exercicio 1'
+          OnClick = Exercicio15Click
+        end
+        object Exercicio24: TMenuItem
+          Caption = 'Exercicio 2'
+          OnClick = Exercicio24Click
+        end
+        object Exercicio34: TMenuItem
+          Caption = 'Exercicio 3'
+          OnClick = Exercicio34Click
+        end
       end
     end
     object About1: TMenuItem

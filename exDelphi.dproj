@@ -126,6 +126,54 @@
             <Form>fmrIF3</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="uFmrSwitch02.pas">
+            <Form>fmrSwitch01</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrSwitch01.pas">
+            <Form>fmrSwitch02</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrSwitch03.pas">
+            <Form>fmrSwitch03</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrFor01.pas">
+            <Form>fmrFor01</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrFor02.pas">
+            <Form>fmrFor02</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrFor03.pas">
+            <Form>fmrFor03</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrWhile01.pas">
+            <Form>fmrWhile01</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrWhile02.pas">
+            <Form>fmrWhile02</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrWhile03.pas">
+            <Form>fmrWhile03</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrRepeat01.pas">
+            <Form>fmrRepeat01</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrRepeat02.pas">
+            <Form>fmrRepeat02</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uFmrRepeat03.pas">
+            <Form>fmrRepeat03</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
